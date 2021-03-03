@@ -4,12 +4,11 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import cofffee_beans_whole_app from '../assets/images/cofffee_beans_whole_app.gif'
+import loader_top_stories from '../assets/images/loader_top_stories.gif'
+import log_in_bob from '../assets/images/log_in_bob.gif'
+import investors_world_map from '../assets/images/investors_world_map.gif'
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -29,50 +28,50 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${cofffee_beans_whole_app})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>LMD ROAST!</h3>
+                                <p>React - Redux - Firebase - Google API - Node/Express - Stripe</p>
+                            </header>
+                            <Link to="/lmdroast" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${loader_top_stories})`}}>
+                            <header className="major">
+                                <h3>Fit To Print</h3>
+                                <p>Javascript - DOM Manipulation - Fetch - Async/Await - CSS</p>
+                            </header>
+                            <Link to="/fit-to-print" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${log_in_bob})`}}>
+                            <header className="major">
+                                <h3>PickUp Games</h3>
+                                <p>.Net Core - react - typescript - MobX - Entity Framework - SqLite/MySql/SqlServer - Semantic-UI</p>
+                            </header>
+                            <Link to="/pickupgames" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${investors_world_map})`}}>
+                            <header className="major">
+                                <h3>Investors World Map - RealFinX</h3>
+                                <p>Javascript Charting Library</p>
+                            </header>
+                            <Link to="/realfinx-maps" className="link primary"></Link>
+                        </article>
+                        {/* <article style={{backgroundImage: `url(${various_charts})`}}>
+                            <header className="major">
+                                <h3>Investor Details Page - RealFinX</h3>
+                                <p>Javascript Charting Library</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${investors_barchart})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Annual Investments - RealFinX</h3>
+                                <p>Javascript Charting Library</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
+                        </article> */}
                     </section>
-                    <section id="two">
+                    {/* <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Massa libero</h2>
@@ -82,7 +81,7 @@ class HomeIndex extends React.Component {
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
             </Layout>

@@ -1,20 +1,28 @@
 import React from 'react'
 
+
 const Banner = (props) => (
+
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1>Hi, my name is Forty</h1>
+                <h1>Alia Malek</h1>
+                <ul className="icons">                
+                    <li><a href="https://github.com/aliamk" className="icon alt fa-github" target="_blank"><span className="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/alia-mk/" className="icon alt fa-linkedin" target="_blank"><span className="label">LinkedIn</span></a></li>
+                    <li><span className="icon alt fa-google"></span>&nbsp;&nbsp;malek.alia@gmail.com</li>
+                </ul>    
             </header>
             <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
-                <ul className="actions">
+                <p>Let's talk&nbsp;<i className="fa fa-level-up fa-10x" aria-hidden="true" style={{color:"yellow"}}></i><p></p>
+                Browse a few of my past projects + see what I've been up to recently&nbsp;<i className="fa fa-level-down fa-10x" aria-hidden="true" style={{color:"yellow"}}></i></p> 
+                {/* <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Get Started</a></li>
-                </ul>
+                </ul> */}
             </div>
         </div>
     </section>
+    
 )
 
 export default Banner
