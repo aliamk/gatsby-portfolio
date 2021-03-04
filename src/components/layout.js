@@ -10,10 +10,12 @@ import Footer from './Footer'
 class Layout extends React.Component {
     constructor(props) {
         super(props)
+
         this.state = {
             isMenuVisible: false,
             loading: 'is-loading'
         }
+        
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
     }
 
