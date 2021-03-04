@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 import various_charts from '../assets/images/various_charts.gif'
 import investors_world_map from '../assets/images/investors_world_map.gif'
-import realfinx_maps from '../assets/images/realfinx_maps.gif'
+import realfin_capital_raised from '../assets/images/rrealfin_capital_raised.gif'
 import investors_barchart from '../assets/images/investors_barchart.gif'
 
 
@@ -40,10 +40,7 @@ const RealFinXMaps = (props) => (
                     <span className="image main"><img src={investors_world_map} alt="" /></span>
 
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>A chart comparing capital raised + number of funds per year</p>
-                    <span className="image main"><img src={realfinx_maps} alt="" /></span>
-
-                    <p style={{marginBottom:"-1em", fontWeight:"bold"}}>A chart comparing capital raised + number of funds per year</p>
-                    <span className="image main"><img src={investors_barchart} alt="" /></span>
+                    <span className="image main"><img src={realfin_capital_raised} alt="" /></span>
 
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>Various charts for use on investment profile pages</p>
                     <span className="image main"><img src={various_charts} alt="" /></span>
