@@ -4,8 +4,8 @@ import Layout from '../components/layout'
 
 import various_charts from '../assets/images/various_charts.gif'
 import investors_world_map from '../assets/images/investors_world_map.gif'
-import realfin_capital_raised from '../assets/images/rrealfin_capital_raised.gif'
-import investors_barchart from '../assets/images/investors_barchart.gif'
+import realfin_capital_raised from '../assets/images/realfin_capital_raised.gif'
+
 
 
 const RealFinXMaps = (props) => (
