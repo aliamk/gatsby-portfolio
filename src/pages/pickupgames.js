@@ -65,8 +65,8 @@ const PickUpGames = (props) => (
                     <hr />                    
 
                     <h5><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/35px-.NET_Core_Logo.svg.png"/><i>&nbsp;&nbsp;.NET:&nbsp; A framework for building a variety of apps that's liked for it's speed, versatility and scalability</i></h5>
-                    <h5><img src="https://img.icons8.com/plasticine/45/000000/react.png"/><i>&nbsp;&nbsp;React:&nbsp; A language that lets you strongly-type Javascript so you can keep track of your data-types and use the latest features of Javascript</i></h5>
-                    <h5><img src="https://img.icons8.com/color/40/000000/typescript.png"/><i>&nbsp;&nbsp;Typescript:&nbsp; For users to manually sign-in and be authenticated/stored on the Firebase database</i></h5>
+                    <h5><img src="https://img.icons8.com/plasticine/45/000000/react.png"/><i>&nbsp;&nbsp;React:&nbsp; A library that allows declarative programming with reusable components and uni-directional data flow</i></h5>
+                    <h5><img src="https://img.icons8.com/color/40/000000/typescript.png"/><i>&nbsp;&nbsp;Typescript:&nbsp; A language that lets you strongly-type Javascript so you can keep track of your data-types and use the latest features of Javascript</i></h5>
                     <h5><img src="https://api.iconify.design/logos-mobx.svg?height=30"/><i>&nbsp;&nbsp;&nbsp;&nbsp;MobX:&nbsp; A library that helps simplify components by moving state from local to central - make components 'observers' of state in stores using react 'context'</i></h5>
                     <h5><img src="https://img.icons8.com/nolan/40/data-configuration.png"/><i>&nbsp;&nbsp;&nbsp;Entity Framework:&nbsp; An Object-Relational Mapper that lets you communicate with a SQL database without having to use SQL queries</i></h5>                    
                     <h5><img src="https://img.icons8.com/nolan/45/sql.png"/><i>&nbsp;&nbsp;&nbsp;SQL:&nbsp; Used SqLite in development for seeding data and swapped it out for MySql and SqlServer at deployment</i></h5>
