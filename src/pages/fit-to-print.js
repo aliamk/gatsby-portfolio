@@ -24,11 +24,15 @@ const FitToPrint = (props) => (
                         <h1>Fit To Print</h1>                   
                     </header>
 
-                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>A <a href="https://aliamk.github.io/Fit-To-Print/" target='blank' style={{textDecoration:"underline"}}>
-                    news app</a> built without any libraries or frameworks to see how much functionality 
-                    can be built in vanilla Javascript, HTML and CSS - Using APIs from The Guardian and the New York Times newspapers
-                    </h3>                          
+                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>
+                        A news app built without any libraries or frameworks to see how much functionality can be built in vanilla Javascript, HTML and CSS - Using APIs from The Guardian and the New York Times newspapers
+                        <br />
+                        <a href="https://aliamk.github.io/Fit-To-Print/" target='_blank' rel="noreferrer" style={{textAlign:"center", textDecoration:"underline"}}>Deployed Site</a>&nbsp;&nbsp;
+                        &nbsp;&nbsp;<a href="https://github.com/aliamk/Fit-To-Print" target='_blank' rel="noreferrer" style={{textDecoration:"underline"}}>Github Code</a>                
+                    </h3>                              
                     
+                    <hr />
+
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>Overview of app</p>
                     <span className="image main"><img src={loader_top_stories} alt="" /></span>
 
@@ -43,6 +47,8 @@ const FitToPrint = (props) => (
 
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>The gallery shows the newspapers' 20 most popular articles - clicking on one will open the article in a new tab</p>
                     <span className="image main"><img src={loader_most_popular} alt="" /></span>
+
+                    <hr />
 
                     <ul>
                         <h4>Post-MVP plans:</h4>

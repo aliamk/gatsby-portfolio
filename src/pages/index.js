@@ -51,7 +51,7 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${investors_world_map})`}}>
                             <header className="major">
-                                <h3>Investors World Map - RealFinX</h3>
+                                <h3>Investors World Map - RealFin</h3>
                                 <p>Javascript Charting Library</p>
                             </header>
                             <Link to="/realfinx-maps" className="link primary"></Link>
