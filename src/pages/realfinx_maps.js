@@ -11,7 +11,7 @@ import realfin_capital_raised from '../assets/images/realfin_capital_raised.gif'
 const RealFinXMaps = (props) => (
     <Layout>
         <Helmet>
-            <title>RealFin Maps</title>
+            <title>Alia Malek Portfolio</title>
             <meta name="description" content="LMDRoast Page" />
         </Helmet>
 

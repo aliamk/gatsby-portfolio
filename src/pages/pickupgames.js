@@ -15,7 +15,7 @@ import add_photos from '../assets/images/add_photos.gif'
 const PickUpGames = (props) => (
     <Layout>
         <Helmet>
-            <title>PickUp Games</title>
+            <title>Alia Malek Portfolio</title>
             <meta name="description" content="PickUpGames Page" />
         </Helmet>
 

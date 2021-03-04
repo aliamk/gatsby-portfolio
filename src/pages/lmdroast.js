@@ -11,7 +11,7 @@ import cofffee_beans_google_sign_in from '../assets/images/cofffee_beans_google_
 const LMDRoast = (props) => (
     <Layout>
         <Helmet>
-            <title>LMD Roast!</title>
+            <title>Alia Malek Portfolio</title>
             <meta name="description" content="LMDRoast Page" />
         </Helmet>
 

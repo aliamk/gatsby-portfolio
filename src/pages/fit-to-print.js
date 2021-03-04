@@ -12,7 +12,7 @@ import loader_most_popular from '../assets/images/loader_most_popular.gif'
 const FitToPrint = (props) => (
     <Layout>
         <Helmet>
-            <title>Fit To Print</title>
+            <title>Alia Malek Portfolio</title>
             <meta name="description" content="LMDRoast Page" />
         </Helmet>
 
