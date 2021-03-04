@@ -39,6 +39,9 @@ const RealFinXMaps = (props) => (
                     <span className="image main"><img src={investors_world_map} alt="" /></span>
 
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>A chart comparing capital raised + number of funds per year</p>
+                    <span className="image main"><img src={realfinx-maps} alt="" /></span>
+
+                    <p style={{marginBottom:"-1em", fontWeight:"bold"}}>A chart comparing capital raised + number of funds per year</p>
                     <span className="image main"><img src={investors_barchart} alt="" /></span>
 
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>Various charts for use on investment profile pages</p>
