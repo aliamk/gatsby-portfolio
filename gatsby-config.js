@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "",
+    title: "Alia Malek Portfolio",
     author: "",
     description: ""
   },
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: '', // This path is relative to the root of the site.
+        icon: 'src/assets/images/icons8-am-radio-50.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
