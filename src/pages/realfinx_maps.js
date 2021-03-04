@@ -20,7 +20,7 @@ const RealFinXMaps = (props) => (
 
                 <div className="inner">
                     <header className="major">
-                        <h1>RealFin Maps</h1>                   
+                        <h1>RealFin Data Visualisation</h1>                   
                     </header>
 
                     <h3 style={{textAlign: "justify", fontWeight:"bold"}}>
