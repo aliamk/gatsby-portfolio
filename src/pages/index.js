@@ -8,7 +8,7 @@ import cofffee_beans_whole_app from '../assets/images/cofffee_beans_whole_app.gi
 import loader_top_stories from '../assets/images/loader_top_stories.gif'
 import log_in_bob from '../assets/images/log_in_bob.gif'
 import investors_world_map from '../assets/images/investors_world_map.gif'
-
+import wnba from '../assets/images/wnba.gif'
 
 class HomeIndex extends React.Component {
     render() {
@@ -56,14 +56,14 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/realfinx-maps" className="link primary"></Link>
                         </article>
-                        {/* <article style={{backgroundImage: `url(${various_charts})`}}>
+                        <article style={{backgroundImage: `url(${wnba})`}}>
                             <header className="major">
-                                <h3>Investor Details Page - RealFinX</h3>
-                                <p>Javascript Charting Library</p>
+                                <h3>WNBA - Social Media Reference</h3>
+                                <p>Work in progress:  A 'one-stop-shop' for every current WNBA player's social media presence</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/wnba" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${investors_barchart})`}}>
+                        {/* <article style={{backgroundImage: `url(${investors_barchart})`}}>
                             <header className="major">
                                 <h3>Annual Investments - RealFinX</h3>
                                 <p>Javascript Charting Library</p>
