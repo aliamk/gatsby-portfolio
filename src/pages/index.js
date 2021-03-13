@@ -32,28 +32,28 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${cofffee_beans_whole_app})`}}>
                             <header className="major">
                                 <h3>LMD ROAST!</h3>
-                                <p>React - Redux - Firebase - Google API - Node/Express - Stripe</p>
+                                <p>REACT - REDUX - FIREBASE - GOOGLE AUTHENTICATION - NODE/EXPRESS - STRIPE</p>
                             </header>
                             <Link to="/lmdroast" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${loader_top_stories})`}}>
                             <header className="major">
                                 <h3>Fit To Print</h3>
-                                <p>Javascript - DOM Manipulation - Fetch - Async/Await - CSS</p>
+                                <p>JAVASCRIPT - DOM MANIPULATION - FETCH - ASYNC/AWAIT - CSS</p>
                             </header>
                             <Link to="/fit-to-print" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${log_in_bob})`}}>
                             <header className="major">
                                 <h3>PickUp Games</h3>
-                                <p>.Net Core - react - typescript - MobX - Entity Framework - SqLite/MySql/SqlServer - Semantic-UI</p>
+                                <p>.NET - REACT - TYPESCRIPT - MOBX - FACEBOOK AUTHENTICATION - SQL - SEMANTIC-UI</p>
                             </header>
                             <Link to="/pickupgames" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${investors_world_map})`}}>
                             <header className="major">
-                                <h3>Investors World Map - RealFin</h3>
-                                <p>Javascript Charting Library</p>
+                                <h3>RealFin</h3>
+                                <p>JAVASCRIPT CHARTING LIBRARY</p>
                             </header>
                             <Link to="/realfinx-maps" className="link primary"></Link>
                         </article>

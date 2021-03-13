@@ -11,7 +11,7 @@ import realfin_capital_raised from '../assets/images/realfin_capital_raised.gif'
 const RealFinXMaps = (props) => (
     <Layout>
         <Helmet>
-            <title>Alia Malek Portfolio</title>
+            <title>RealFin Data Visualisation</title>
             <meta name="description" content="RealFin Maps" />
         </Helmet>
 
@@ -24,8 +24,8 @@ const RealFinXMaps = (props) => (
                     </header>
 
                     <h3 style={{textAlign: "justify", fontWeight:"bold"}}>
-                    RealFin Solutions is a startup specialising in real estate fund intelligence that is currently preparing for its beta launch in Spring 2021.  
-                    I have been working with them by tailoring javascript mapping libraries to their specifications. Some of the work in progress is included below.
+                    RealFin is a startup specialising in real estate fund intelligence that is currently preparing for its beta launch in Spring 2021.  
+                    I have been working with them by tailoring javascript chart libraries to their specifications. Some of the work in progress is included below.
                     </h3>   
 
                     <hr />
