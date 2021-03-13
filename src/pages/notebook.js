@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import for_loop from '../assets/images/for_loop.png'
 import map_array from '../assets/images/map_array.png'
 import for_of_for_in from '../assets/images/for_of_for_in.png'
+import up_arrow from '../assets/images/up_arrow.png'
 
 
 
@@ -44,25 +45,27 @@ const Notebook = (props) => (
 
                     <hr />
 
-                    <h3 class="major" id="angular_react" style={{textAlign: "justify", fontWeight:"bold"}}><a href="#major">History of Angular + React</a>
+                    <h3 class="major" id="angular_react" style={{textAlign: "justify", fontWeight:"bold"}}>
+                      <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>History of Angular + React
                         <br /><br />
                         <ul>
                           <li>In the <span style={{color:"yellow"}}>90s and 00s</span>, there was only <span style={{color:"yellow"}}>HTML, CSS and JS</span>... connected to servers</li>
                           <li><span style={{color:"yellow"}}>Javascript</span> had to be manipulated to work across all the different browsers</li>
                           <li><span style={{color:"yellow"}}>jQuery</span> was created to solve the problem of cross-browser compatibility</li>
                           <li>As a result, applications became bigger and more complicated</li>
-                          <li>Then <span style={{color:"yellow"}}>Backbone.js/AJAX</span> came along to organise the Javacript files leading to the creation of <span style={{color:"yellow"}}>Single Page Applications (SPAs)</span></li>
+                          <li>Then <span style={{color:"yellow"}}>Backbone.js/AJAX</span> came along to organise the Javascript files leading to the creation of <span style={{color:"yellow"}}>Single Page Applications (SPAs)</span></li>
                           <li>Single Page Applications make websites faster because they have to communicate with the server fewer times; they only load relevant parts of a website</li>
                           <li><span style={{color:"yellow"}}>AngularJS</span> by Google came out in 2010 - its organising principle was packages and Model-View-Controller (MVC)</li>
                           <li>Applications became even more complex - developers struggled to debug and saw data flowing everywhere</li>
-                          <li>In 2013, FaceBook released <span style={{color:"yellow"}}>ReactJS</span> to fix the problem of poor architectural design</li>
+                          <li>In 2013, Facebook released <span style={{color:"yellow"}}>ReactJS</span> to fix the problem of poor architectural design</li>
                           <li>In 2014, AngularJS became just <span style={{color:"yellow"}}>Angular</span> - its architecture was completely rewritten and is now very good but, by then, the reputation of React had taken off</li>
                         </ul>
                     </h3>                              
                     
                     <hr />
 
-                    <h3 id="success_react" style={{textAlign: "justify", fontWeight:"bold"}}><a href="#major">Success of React</a>
+                    <h3 id="success_react" style={{textAlign: "justify", fontWeight:"bold"}}>
+                    <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>Success of React
                         <br /><br />
                         <ul>
                           <li><span style={{color:"yellow"}}>Declarative Programming:</span> React will manipulate the DOM for you using state instead of <span style={{color:"yellow"}}>Imperative Programming</span> which uses libraries to directly manipulate the DOM</li>
@@ -74,7 +77,8 @@ const Notebook = (props) => (
 
                     <hr />
 
-                    <h3 class="major" id="plan_react" style={{textAlign: "justify", fontWeight:"bold"}}><a href="#major">How To Plan a React App</a>
+                    <h3 class="major" id="plan_react" style={{textAlign: "justify", fontWeight:"bold"}}>
+                    <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>How To Plan a React App
                         <br /><br />
                         <ul>
                           <li><span style={{color:"yellow"}}>Decide which components to build:</span> Break the app down into small components</li>
@@ -85,7 +89,8 @@ const Notebook = (props) => (
 
                     <hr />
 
-                    <h3 id="refactoring" style={{textAlign: "justify", fontWeight:"bold"}}><a href="#major">Refactoring Examples</a></h3>
+                    <h3 id="refactoring" style={{textAlign: "justify", fontWeight:"bold"}}>
+                    <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>Refactoring Examples</h3>
                     <h4>For Loops vs Map Method</h4>
                     <div style={{display: "flex"}}>
                       <img style={{justifyContent: "center", width: "60%"}} src={for_loop} alt="example image of a for loop" />&nbsp;
