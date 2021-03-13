@@ -9,6 +9,7 @@ import loader_top_stories from '../assets/images/loader_top_stories.gif'
 import log_in_bob from '../assets/images/log_in_bob.gif'
 import investors_world_map from '../assets/images/investors_world_map.gif'
 import wnba from '../assets/images/wnba.gif'
+import handbook from '../assets/images/handbook.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -63,10 +64,10 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/wnba" className="link primary"></Link>
                         </article>
-                        <article>
+                        <article style={{backgroundImage: `url(${handbook})`}}>
                             <header className="major">
                                 <h3>Notebook</h3>
-                                <p>A Developer's Notebook</p>
+                                <p>My notes on React, Javascript, Arrays, Objects, Refactoring and more</p>
                             </header>
                             <Link to="/notebook" className="link primary"></Link>
                         </article>
