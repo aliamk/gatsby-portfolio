@@ -11,6 +11,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/fit-to-print">Fit To Print</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/pickupgames">PickUp Games</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/realfinx-maps">RealFin Maps</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/notebook">Notebook</Link></li>
             </ul>
             {/* <ul className="actions vertical">
                 <li><a href="#" className="button special fit">Get Started</a></li>

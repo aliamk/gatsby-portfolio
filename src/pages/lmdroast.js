@@ -43,16 +43,16 @@ const LMDRoast = (props) => (
                     <h5><img src="https://img.icons8.com/fluent/40/000000/stripe.png"/><i>&nbsp;&nbsp;&nbsp;Stripe API:&nbsp; For users to easily pay for their items</i></h5>
                     <hr />                    
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>Overview of app</p>
-                    <span className="image main"><img src={cofffee_beans_whole_app} alt="" /></span>
+                    <span className="image main"><img src={cofffee_beans_whole_app} alt="gif from app" /></span>
 
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>Checking-out with payment and address details via the Stripe API</p>
-                    <span className="image main"><img src={cofffee_beans_checkout} alt="" /></span>
+                    <span className="image main"><img src={cofffee_beans_checkout} alt="gif from app" /></span>
 
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>Manually signing-in as an existing user and having user data requested from the Firebase database</p>
-                    <span className="image main"><img src={cofffee_beans_manual_sign_in} alt="" /></span>
+                    <span className="image main"><img src={cofffee_beans_manual_sign_in} alt="gif from app" /></span>
 
                     <p style={{marginBottom:"-1em", fontWeight:"bold"}}>Signing-in and being authenticated as a Google user</p>
-                    <span className="image main"><img src={cofffee_beans_google_sign_in} alt="" /></span>
+                    <span className="image main"><img src={cofffee_beans_google_sign_in} alt="gif from app" /></span>
                 </div>
 
             </section>
