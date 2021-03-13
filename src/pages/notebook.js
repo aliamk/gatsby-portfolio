@@ -19,7 +19,13 @@ const Notebook = (props) => (
             <section id="one">
 
                 <div className="inner">
-                    <header className="major"><h1>Notebook</h1></header>
+                    <header className="major" id="major"><h1>Notebook</h1></header>
+                    <a href="#angular_react" style={{color:"yellow", textDecoration: "none"}}>Angular & React</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#success_react" style={{color:"yellow", textDecoration: "none"}}>Success of React</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#plan_react" style={{color:"yellow", textDecoration: "none"}}>How To Plan a React App</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#refactoring" style={{color:"yellow", textDecoration: "none"}}>Refactoring Examples</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <br /><br />
 
                     <h3 style={{textAlign: "justify", fontWeight:"bold"}}>How Does JS Work?
                         <br /><br />
@@ -38,7 +44,7 @@ const Notebook = (props) => (
 
                     <hr />
 
-                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>History of Angular + React
+                    <h3 class="major" id="angular_react" style={{textAlign: "justify", fontWeight:"bold"}}><a href="#major">History of Angular + React</a>
                         <br /><br />
                         <ul>
                           <li>In the <span style={{color:"yellow"}}>90s and 00s</span>, there was only <span style={{color:"yellow"}}>HTML, CSS and JS</span>... connected to servers</li>
@@ -56,7 +62,7 @@ const Notebook = (props) => (
                     
                     <hr />
 
-                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>Success of React
+                    <h3 id="success_react" style={{textAlign: "justify", fontWeight:"bold"}}><a href="#major">Success of React</a>
                         <br /><br />
                         <ul>
                           <li><span style={{color:"yellow"}}>Declarative Programming:</span> React will manipulate the DOM for you using state instead of <span style={{color:"yellow"}}>Imperative Programming</span> which uses libraries to directly manipulate the DOM</li>
@@ -68,7 +74,7 @@ const Notebook = (props) => (
 
                     <hr />
 
-                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>How To Plan a React App
+                    <h3 class="major" id="plan_react" style={{textAlign: "justify", fontWeight:"bold"}}><a href="#major">How To Plan a React App</a>
                         <br /><br />
                         <ul>
                           <li><span style={{color:"yellow"}}>Decide which components to build:</span> Break the app down into small components</li>
@@ -79,7 +85,7 @@ const Notebook = (props) => (
 
                     <hr />
 
-                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>Refactoring Examples</h3>
+                    <h3 id="refactoring" style={{textAlign: "justify", fontWeight:"bold"}}><a href="#major">Refactoring Examples</a></h3>
                     <h4>For Loops vs Map Method</h4>
                     <div style={{display: "flex"}}>
                       <img style={{justifyContent: "center", width: "60%"}} src={for_loop} alt="example image of a for loop" />&nbsp;
@@ -87,7 +93,7 @@ const Notebook = (props) => (
                     </div>
 
                     <br /><br />
-                    <h4>For-Of vs For-In</h4>
+                    <h4 id="for_of_for_in">For-Of vs For-In</h4>
                     <div style={{display: "flex"}}>
                       <img style={{justifyContent: "center", width: "50%"}} src={for_of_for_in} alt="example image of a for-in and for for-of loop" />&nbsp;
                     </div>
