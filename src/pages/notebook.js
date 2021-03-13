@@ -79,7 +79,7 @@ const Notebook = (props) => (
                     <hr />
 
                     <h3 style={{textAlign: "justify", fontWeight:"bold"}}>Refactoring</h3>
-                    <h4>For Loops vs Map</h4>
+                    <h4>For Loops vs Map Method</h4>
                     <div style={{display: "flex"}}>
                       <img style={{justifyContent: "center"}} src={for_loop} alt="example image of a for loop" />&nbsp;
                       <img style={{justifyContent: "center", height: "100%"}} src={map_array} alt="example image of a map" />
