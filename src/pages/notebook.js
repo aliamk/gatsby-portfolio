@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 
 import for_loop from '../assets/images/for_loop.png'
 import map_array from '../assets/images/map_array.png'
+import for_of_for_in from '../assets/images/for_of_for_in.png'
 
 
 
@@ -78,11 +79,17 @@ const Notebook = (props) => (
 
                     <hr />
 
-                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>Refactoring</h3>
+                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>Refactoring Examples</h3>
                     <h4>For Loops vs Map Method</h4>
                     <div style={{display: "flex"}}>
-                      <img style={{justifyContent: "center"}} src={for_loop} alt="example image of a for loop" />&nbsp;
+                      <img style={{justifyContent: "center", width: "60%"}} src={for_loop} alt="example image of a for loop" />&nbsp;
                       <img style={{justifyContent: "center", height: "100%"}} src={map_array} alt="example image of a map" />
+                    </div>
+
+                    <br /><br />
+                    <h4>For-Of vs For-In</h4>
+                    <div style={{display: "flex"}}>
+                      <img style={{justifyContent: "center", width: "50%"}} src={for_of_for_in} alt="example image of a for-in and for for-of loop" />&nbsp;
                     </div>
 
                     <hr />
