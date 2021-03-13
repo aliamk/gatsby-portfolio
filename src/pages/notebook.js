@@ -28,24 +28,30 @@ const Notebook = (props) => (
 
                     <br /><br />
 
-                    <h3 style={{textAlign: "justify", fontWeight:"bold"}}>How Does JS Work?
+                    <h4 style={{textAlign: "justify", fontWeight:"bold"}}>How Does JS Work?
                         <br /><br />
                         <ul>
                           <li>Javascript is a <span style={{color:"yellow"}}>single-threaded language</span> that can be non-blocking</li>
                           <li><span style={{color:"yellow"}}>What does a programme do?</span> Programmes allocate memory (for variables and files etc) and parse/execute scripts (read and write commands)</li>
                           <li>The <span style={{color:"yellow"}}>V8 engine</span> reads the JS code and changes it into machine-executable instructions for the browser</li>
-                          <li>The engine has two parts: 1) The <span style={{color:"yellow"}}>Memory Heap</span> - allocates memory 2) The <span style={{color:"yellow"}}>Call Stack</span> - executes code, tells u where u r in the programme</li>
+                          <li>The engine has two parts: 
+                            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            1) The <span style={{color:"yellow"}}>Memory Heap</span> - allocates memory 
+                            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            2) The <span style={{color:"yellow"}}>Call Stack</span> - executes code, tells u where u r in the programme</li>
                           <li><span style={{color:"yellow"}}>What's a memory leak?</span> When variables are created (and take up memory space) but aren’t used… especially true of global variables</li>
                           <li>A single-threaded engine means there is only one call stack.  The call stack works in order of ‘first in, last out’.</li>
                           <li><span style={{color:"yellow"}}>Why is JS single-threaded?</span> Makes coding simpler than in a multi-threaded languages where issues concerning deadlocking are a problem.</li>
                           <li><span style={{color:"yellow"}}>Synchronous</span> processing is good bc it is simple and its order of execution is predictable but it can be slow for moderately complex tasks.</li>
                           <li><span style={{color:"yellow"}}>Asynchronous</span> programming can be achieved by using setTimeouts… u can control the order  of execution</li>
                         </ul>
-                    </h3> 
+                    </h4> 
 
                     <hr />
 
-                    <h3 class="major" id="angular_react" style={{textAlign: "justify", fontWeight:"bold"}}>
+                    <h4 class="major" id="angular_react" style={{textAlign: "justify", fontWeight:"bold"}}>
                       <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>History of Angular + React
                         <br /><br />
                         <ul>
@@ -60,38 +66,38 @@ const Notebook = (props) => (
                           <li>In 2013, Facebook released <span style={{color:"yellow"}}>ReactJS</span> to fix the problem of poor architectural design</li>
                           <li>In 2014, AngularJS became just <span style={{color:"yellow"}}>Angular</span> - its architecture was completely rewritten and is now very good but, by then, the reputation of React had taken off</li>
                         </ul>
-                    </h3>                              
+                    </h4>                              
                     
                     <hr />
 
-                    <h3 id="success_react" style={{textAlign: "justify", fontWeight:"bold"}}>
+                    <h4 id="success_react" style={{textAlign: "justify", fontWeight:"bold"}}>
                     <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>Success of React
                         <br /><br />
                         <ul>
                           <li><span style={{color:"yellow"}}>Declarative Programming:</span> React will manipulate the DOM for you using state instead of <span style={{color:"yellow"}}>Imperative Programming</span> which uses libraries to directly manipulate the DOM</li>
                           <li><span style={{color:"yellow"}}>Component Architecture:</span> Websites/Projects can share components which makes code highly reusable - build websites like lego blocks</li>
                           <li><span style={{color:"yellow"}}>Uni-Directional Data Flow:</span> Data can only move downwards through an application via state changes located within various components as opposed to data going in every direction and becoming difficult to debug</li>
-                          <li><span style={{color:"yellow"}}>The UI Library:</span> React can be used in many environments (cross-platform) because its just a UI library</li>
+                          <li><span style={{color:"yellow"}}>The UI Library:</span> React can be used in many environments (cross-platform) because its just a UI library - pair it with Node, dotNet or Python...</li>
                         </ul>
-                    </h3>
+                    </h4>
 
                     <hr />
 
-                    <h3 class="major" id="plan_react" style={{textAlign: "justify", fontWeight:"bold"}}>
+                    <h4 class="major" id="plan_react" style={{textAlign: "justify", fontWeight:"bold"}}>
                     <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>How To Plan a React App
                         <br /><br />
                         <ul>
                           <li><span style={{color:"yellow"}}>Decide which components to build:</span> Break the app down into small components</li>
-                          <li><span style={{color:"yellow"}}>Decide what needs state and where it should be stored:</span> In multiple components or in just one/two</li>
+                          <li><span style={{color:"yellow"}}>Decide what needs state and where it should be stored:</span> In multiple components or just one</li>
                           <li><span style={{color:"yellow"}}>Decide which elements should be affected by state change:</span> Which parts of an application should be state-dependant?</li>
                         </ul>
-                    </h3>
+                    </h4>
 
                     <hr />
 
-                    <h3 id="refactoring" style={{textAlign: "justify", fontWeight:"bold"}}>
-                    <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>Refactoring Examples</h3>
-                    <h4>For Loops vs Map Method</h4>
+                    <h4 id="refactoring" style={{textAlign: "justify", fontWeight:"bold"}}>
+                    <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>Refactoring Examples</h4>
+                    <h4>For-Loops vs Map Method</h4>
                     <div style={{display: "flex"}}>
                       <img style={{justifyContent: "center", width: "60%"}} src={for_loop} alt="example image of a for loop" />&nbsp;
                       <img style={{justifyContent: "center", height: "100%"}} src={map_array} alt="example image of a map" />
