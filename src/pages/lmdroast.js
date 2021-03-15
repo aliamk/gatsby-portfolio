@@ -25,7 +25,7 @@ const LMDRoast = (props) => (
 
                     <h4 style={{textAlign: "justify", fontWeight:"bold"}}>
                         An e-commerce site with cloud storage, third-party authentication and payment for people who want the
-                        rarest coffee beans and want them now.<br />This app was deployed by Heroku which can be slow to load so it may be a good time to get a cup of coffee while you wait
+                        rarest coffee beans and want them now.<br />This app was deployed on Heroku which can be slow to load so it may be a good time to get a cup of coffee while you wait
                         &nbsp;<span style={{fontSize:'2em'}}>&#9749;</span>
                         <a href="https://lmd-roast.herokuapp.com/" target='blank' style={{textAlign:"center", textDecoration:"underline"}}>Deployed Site</a>&nbsp;&nbsp;
                         &nbsp;&nbsp;<a href="https://github.com/aliamk/LMDRoast-Redux-Selectors" target='blank' style={{textDecoration:"underline"}}>Github Code</a>
