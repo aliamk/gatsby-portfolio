@@ -21,9 +21,10 @@ const Notebook = (props) => (
 
                 <div className="inner">
                     <header className="major" id="major"><h1>Notebook</h1></header>
-                    <a href="#angular_react" style={{color:"yellow", textDecoration: "none"}}>Angular & React</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#angular_react" style={{color:"yellow", textDecoration: "none"}}>Angular + React</a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#success_react" style={{color:"yellow", textDecoration: "none"}}>Success of React</a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#plan_react" style={{color:"yellow", textDecoration: "none"}}>How To Plan a React App</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#webpack_babel" style={{color:"yellow", textDecoration: "none"}}>Webpack + Babel</a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#refactoring" style={{color:"yellow", textDecoration: "none"}}>Refactoring Examples</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
                     <br /><br />
@@ -60,7 +61,7 @@ const Notebook = (props) => (
                           <li><span style={{color:"yellow"}}>jQuery</span> was created to solve the problem of cross-browser compatibility</li>
                           <li>As a result, applications became bigger and more complicated</li>
                           <li>Then <span style={{color:"yellow"}}>Backbone.js/AJAX</span> came along to organise the Javascript files leading to the creation of <span style={{color:"yellow"}}>Single Page Applications (SPAs)</span></li>
-                          <li>Single Page Applications make websites faster because they have to communicate with the server fewer times; they only load relevant parts of a website</li>
+                          <li>Single Page Applications make websites <span style={{color:"yellow"}}>faster</span> because they communicate with <span style={{color:"yellow"}}>servers</span> less; they only load parts of a website when a user navigates to them and much of the functionality of the page can be computed on the frontend instead of on the server</li>
                           <li><span style={{color:"yellow"}}>AngularJS</span> by Google came out in 2010 - its organising principle was packages and Model-View-Controller (MVC)</li>
                           <li>Applications became even more complex - developers struggled to debug and saw data flowing everywhere</li>
                           <li>In 2013, Facebook released <span style={{color:"yellow"}}>ReactJS</span> to fix the problem of poor architectural design</li>
@@ -90,6 +91,35 @@ const Notebook = (props) => (
                           <li><span style={{color:"yellow"}}>Decide which components to build:</span> Break the app down into small components</li>
                           <li><span style={{color:"yellow"}}>Decide what needs state and where it should be stored:</span> In multiple components or just one</li>
                           <li><span style={{color:"yellow"}}>Decide which elements should be affected by state change:</span> Which parts of an application should be state-dependant?</li>
+                        </ul>
+                    </h4>
+
+                    <hr />
+
+                    <h4 class="major" id="webpack_babel" style={{textAlign: "justify", fontWeight:"bold"}}>
+                    <a href="#major"><img src={up_arrow} alt="return to top of page" style={{height: "1em", marginRight: "0.5em"}} /></a>Using Webpack + Babel instead of create-react-app
+                        <br /><br />
+                        <ul>
+                          <li>Using <span style={{color:"yellow"}}>'create-react-app'</span> means you don't have to deal with webpack and babel settings (the same is true for Angular etc)</li>
+                          <li>The main aim of webpack is <span style={{color:"yellow"}}>cross-browser compatibility:</span> convert react's JSX, HTML and CSS into a language that every browser can understand</li>
+                          <li>Babel is a <span style={{color:"yellow"}}>loader</span> within webpack that converts JSX files into older Javascript files (e.g., ES5)</li>
+                        </ul>
+                        <h5 id="title">Commands for installing Webpack + Babel for JSX + HTML + CSS</h5>
+                        <ul>
+                          <li style={{color:"yellow"}}>npm i --save-dev webpack webpack-cli</li>
+                          <li>This will look for a file called webpack.config.js so you need to create it</li>
+                          <li>You need to update package.json's "scripts" with: <span style={{color:"yellow"}}>"build": "webpack --mode production"</span></li>
+                          <li style={{color:"yellow"}}>npm i --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader</li>
+                          <li>Write out the module settings in webpack.config.js in ES5 format</li>
+                          {/* <img src={}></img> */}
+                          <li>The babel-loader is looking for a <span style={{color:"yellow"}}>.babelrc</span> file in the project root so you need to create it - it tells babel what to transpile the react app down into (e.g. ES5)</li>
+                          {/* <img src={}></img> */}
+                          <li style={{color:"yellow"}}>npm i --save-dev style-loader css-loader</li>
+                          {/* <img src={}></img> */}
+                          <li style={{color:"yellow"}}>npm i --save-dev html-loader html-webpack-plugin</li>
+                          {/* <img src={}></img> */}
+                          <li style={{color:"yellow"}}>npm run build</li>
+                          <p>This will create a <span style={{color:"yellow"}}>dist</span> folder in the project root containing <span style={{color:"yellow"}}>index.html</span> and <span style={{color:"yellow"}}>main.js</span> files - if you open index.html in a browser it should render whatever JSX you've added to App.jsx</p>
                         </ul>
                     </h4>
 
