@@ -62,9 +62,9 @@ const Notebook = (props) => (
                           <li>As a result, applications became bigger and more complicated</li>
                           <li>Then <span style={{color:"yellow"}}>Backbone.js/AJAX</span> came along to organise the Javascript files leading to the creation of <span style={{color:"yellow"}}>Single Page Applications (SPAs)</span></li>
                           <li>Single Page Applications make websites <span style={{color:"yellow"}}>faster</span> because they communicate with <span style={{color:"yellow"}}>servers</span> less; they only load parts of a website when a user navigates to them and much of the functionality of the page can be computed on the frontend instead of on the server</li>
-                          <li><span style={{color:"yellow"}}>AngularJS</span> by Google came out in 2010 - its organising principle was packages and Model-View-Controller (MVC)</li>
+                          <li><span style={{color:"yellow"}}>AngularJS</span> by Google came out in 2010 - it's a comprehensive framework whose organising principle was packages and Model-View-Controller (MVC)</li>
                           <li>Applications became even more complex - developers struggled to debug and saw data flowing everywhere</li>
-                          <li>In 2013, Facebook released <span style={{color:"yellow"}}>ReactJS</span> to fix the problem of poor architectural design</li>
+                          <li>In 2013, Facebook released <span style={{color:"yellow"}}>ReactJS</span> to fix the problem of complicated architectural design - it's not MVC, it's just V (View) - and uses external libraries to add extra functionalities (e.g., routing)</li>
                           <li>In 2014, AngularJS became just <span style={{color:"yellow"}}>Angular</span> - its architecture was completely rewritten and is now very good but, by then, the reputation of React had taken off</li>
                         </ul>
                     </h4>                              
