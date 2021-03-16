@@ -58,9 +58,7 @@ const Notebook = (props) => (
                         <ul>
                           <li>In the <span style={{color:"yellow"}}>90s and 00s</span>, there was only <span style={{color:"yellow"}}>HTML, CSS and JS</span>... connected to servers</li>
                           <li><span style={{color:"yellow"}}>Javascript</span> had to be manipulated to work across all the different browsers</li>
-                          <li><span style={{color:"yellow"}}>jQuery</span> was created to solve the problem of cross-browser compatibility</li>
-                          <li>As a result, applications became bigger and more complicated</li>
-                          <li>Then <span style={{color:"yellow"}}>Backbone.js/AJAX</span> came along to organise the Javascript files leading to the creation of <span style={{color:"yellow"}}>Single Page Applications (SPAs)</span></li>
+                          <li><span style={{color:"yellow"}}>jQuery</span> was created to simplify Javascript and cross-browser compatibility, <span style={{color:"yellow"}}>Backbone.js</span> and <span style={{color:"yellow"}}>AJAX</span> came along to better organise app architecture by providing a model and <span style={{color:"yellow"}}>asynchronous</span> server communication - this led to the creation of <span style={{color:"yellow"}}>Single Page Applications (SPAs)</span></li>
                           <li>Single Page Applications make websites <span style={{color:"yellow"}}>faster</span> because they communicate with <span style={{color:"yellow"}}>servers</span> less; they only load parts of a website when a user navigates to them and much of the functionality of the page can be computed on the frontend instead of on the server</li>
                           <li><span style={{color:"yellow"}}>AngularJS</span> by Google came out in 2010 - it's a comprehensive framework whose organising principle was packages and Model-View-Controller (MVC)</li>
                           <li>Applications became even more complex - developers struggled to debug and saw data flowing everywhere</li>
